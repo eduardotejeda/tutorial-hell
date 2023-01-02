@@ -5,7 +5,7 @@ const { JSDOM } = jsdom;
 const render = async (filename) => {
 const filePath = path.join(process.cwd(), filename);
 
-const dom = awaitSDOM.formFile(filePath, { 
+const dom = await JSDOM.formFile(filePath, { 
     runScripts: "dangerously",
     resources: "usable"
 });
