@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+
+h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    
+}
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    display: block;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: olive;
+    border: 5px solid black;
+    display: inline-block;
+}
