@@ -1,0 +1,2 @@
+const arr = ['argument', 'parameter', 'block scope', 'lexical scope', 'function expressions', 'higher order functions', 'methods', 'this', 'try/catch', 'callback', 'forEach', 'map', 'arrow functions', 'implicit return', 'setTimeout', 'setInterval', 'filter', 'every', 'some', 'reduce', 'spread', 'rest params', 'argument object', 'destructuring',  ]
+
