@@ -23,11 +23,21 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
+      img {
+        display: block;
+        margin: 0 auto;
+        padding: 50px;
+      }
+      @media (min-width: 500px) {
+        img {
+          padding: 100px;
+          outline: 1px solid red;
+        }
+      }
     </style>
   </head>
   <body>
-    Improve your front-end skills by building projects Scan the QR code to visit
-    Frontend Mentor and take your coding skills to the next level
+    <img src="images/image-qr-code.png" alt="QR Code" />
 
     <div class="attribution">
       Challenge by
