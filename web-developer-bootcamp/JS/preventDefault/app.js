@@ -11,3 +11,8 @@ form.addEventListener('submit', function(e) {
     input.value = '';
 
 })
+
+list.addEventListener('click', function(e) {
+    e.target.remove();
+    //console.dir(e)
+})
