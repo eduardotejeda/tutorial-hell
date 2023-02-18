@@ -23,15 +23,49 @@
 
 // Better with functions
 
-const delayedColorChange = (newColor, delay, doNext) => {
-    setTimeout(() => {
-        document.body.style.backgroundColor = newColor;
-        doNext && doNext();
-        }, delay)
+// const delayedColorChange = (newColor, delay, doNext) => {
+//     setTimeout(() => {
+//         document.body.style.backgroundColor = newColor;
+//         doNext && doNext();
+//         }, delay)
+// }
+
+// delayedColorChange('red', 1000, () => {
+//     delayedColorChange('orange', 1000, () => {
+//         delayedColorChange('yellow', 1000)
+//     })
+// })
+
+const delayedColorChange = (color, delay) => {
+       return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            document.body.style.backgroundColor = color;
+            resolve();
+            }, delay)
+
+       })
+         
+    }
+
+// delayedColorChange('red', 1000)
+//     .then(() => delayedColorChange('orange', 1000))
+//     .then(() => delayedColorChange('yellow', 1000))
+//     .then(() => delayedColorChange('green', 1000))
+//     .then(() => delayedColorChange('blue', 1000))
+
+async function rainbow() {
+    await delayedColorChange('red', 1000)
+    await delayedColorChange('orange', 1000)
+    await delayedColorChange('yellow', 1000)
+    await delayedColorChange('green', 1000)
+    await delayedColorChange('blue', 1000)
+    return "ALL DONE"
 }
 
-delayedColorChange('red', 1000, () => {
-    delayedColorChange('orange', 1000, () => {
-        delayedColorChange('yellow', 1000)
-    })
-})
+// rainbow().then(() => console.log("END OF RAINBOW"))
+
+async function printRainbow() {
+    await rainbow();
+    console.log("END OF RAINBOW")
+}
+
