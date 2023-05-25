@@ -1,0 +1,49 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+body {
+    background-color: rgb(213, 225, 239);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .qrimage {
+    border-radius: 5px;
+  }
+
+  #title {
+padding-top: 20px;
+  }
+
+  .qrltext {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    
+    
+  }
+
+  .card {
+    display: grid;
+    place-items: center;    
+    grid-auto-columns: auto;
+    border-radius: 5px;
+    padding-bottom: 100px;
+    padding-top: 24px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  @media (min-width: 500px) {
+    img {
+      
+      
+    }
+  }
