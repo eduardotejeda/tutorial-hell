@@ -55,7 +55,7 @@ font-size: large;
     width: 80%;
     max-width: 300px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 1px 4px 500px 1px rgb(160, 157, 157);;
+    /*No shadow box-shadow: 1px 4px 500px 1px rgb(160, 157, 157); */
   }
 
   .card #textcolor {
