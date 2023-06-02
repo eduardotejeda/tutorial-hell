@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    
-    li {
-      list-style-type: none;
-    }
-  </style>
-</head>
-<body>
-  <main >
-    <div class="result">
+    <title>Frontend Mentor | Results summary component</title>
 
-      <!-- Results are base on score.score value / score.length -->
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
-      Your Result
-      <span id="scoreSum"></span>
-      of 100
-    
-      Great
-      You scored higher than 65% of the people who have taken these tests.</div>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <main>
+      <div class="result">
+        <!-- Results #scoreSum are base on score.score value / scores.length -->
 
-  <div class="summary">
-   <!-- Populate list from app.js -->
+        <h2>Your Result</h2>
+        <div><span id="scoreSum"></span> of 100</div>
 
-  Summary
-<ul id="data-output">
-</ul>
-<button>Continue</button>
-</div>
-</main>
+        <h1>Great</h1>
+        <div>
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+      </div>
 
-  <script src="app.js"></script>
-</body>
+      <div class="summary">
+        <!-- Populate list from app.js -->
+
+        Summary
+        <ul id="data-output"></ul>
+        <button>Continue</button>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
 </html>

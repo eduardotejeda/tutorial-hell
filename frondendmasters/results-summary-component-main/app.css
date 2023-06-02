@@ -1,0 +1,27 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+li {
+      list-style-type: none;
+    }
+
+main {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+.result {
+        width: 250px;
+        height: 300px;
+        background-color: purple;   
+             
+        
+    }
+
+.summary {
+       width: 250px;
+    height: 300px;
+    }
