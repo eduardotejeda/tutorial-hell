@@ -1,0 +1,39 @@
+#main {   
+    border-radius: 15px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+
+      }
+
+.div1 {
+    position: relative;
+    z-index: 1;
+    background-color: blue;
+    height: 320px;
+    width: 400px;
+    border-radius: 15px;
+  }
+  
+  .div2 {
+    height: 320px;
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    background-color: blueviolet;
+    border-radius: 15px;
+        
+  }
+  .div3 {
+    height: 320px;
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    background-color: blue;
+    border-radius: 15px;
+    transform: translate(100%, -0%);
+  }
+
+ 
