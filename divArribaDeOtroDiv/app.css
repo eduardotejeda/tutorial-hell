@@ -1,3 +1,76 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+
+/* Center using display:grid */
+
+/* 
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  } */
+
+/* 
+  Center using display: flex */
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    
+    
+    .main {
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    }
+
+    .div1 {
+      position: relative;
+      z-index: 1;
+      background-color: blue;
+      height: 320px;
+      width: 400px;
+      border-radius: 15px;
+      box-shadow: gray 15px 10px 25px;
+    }
+    
+    .div2 {
+      height: 320px;
+      width: 200px;
+      position: absolute;
+      z-index: 2;
+      background-color: blueviolet;
+      border-radius: 15px;
+          
+    }
+    .div3 {
+      height: 320px;
+      width: 200px;
+      position: absolute;
+      z-index: 2;
+      background-color: blue;
+      border-radius: 15px;
+      transform: translate(100%, -0%); 
+    }
+
+/* 
+Center using my way */
+/* 
 #main {   
     border-radius: 15px;
     background-color: red;
@@ -34,6 +107,6 @@
     background-color: blue;
     border-radius: 15px;
     transform: translate(100%, -0%);
-  }
+  } */
 
  
