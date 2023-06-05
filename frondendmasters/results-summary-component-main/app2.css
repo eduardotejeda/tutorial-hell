@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+outline: solid 1px red;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+    }
+
+    li {
+        list-style-type: none;
+      }
+
+      h1, h2 {
+        display: grid;
+        place-self: center;
+      }
+
+    main {
+        position: relative;
+        z-index: 1;
+        background-color: White: hsl(0, 0%, 100%);
+        height: 320px;
+        width: 400px;
+        border-radius: 15px;
+        box-shadow: lightgray 15px 10px 25px;
+      }
+      
+    .result {
+        height: 320px;
+        width: 200px;
+        position: absolute;
+        z-index: 2;
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+        border-radius: 15px;   
+        display: grid;  
+        /* grid-template-rows: 40px 8rem auto 30%; */             
+        
+            
+      }
+
+      .result > div:nth-child(4){
+        text-align: center;
+
+      }
+
+    #circle {
+        
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        place-self: center;
+    }
+      
+
+
+    .summary {
+        height: 320px;
+        width: 200px;
+        position: absolute;
+        z-index: 2;
+        background-color: White: hsl(0, 0%, 100%);
+        border-radius: 15px;
+        transform: translate(100%, -0%); 
+        text-align: center;
+       
+       
+      }
+
+      span {
+        font-weight: 800;
+        font-size: 7vh;
+        padding-top: 10px;
+      }
+
+      #scoreSum, .result > h1:nth-child(3) {
+        color: hsl(0, 0%, 100%);
+        
+      }
+
+      #circle > p:nth-child(2) {
+        color: hsl(224, 30%, 70%);
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 18px;
+      }
+
+      .result > div:nth-child(4), .result > h2:nth-child(1) {
+        color: hsl(241, 100%, 89%);
+      }
+
+      .result > h2:nth-child(1) {
+        font-size: 1.8vw;
+        padding-top: 10px;
+      }
+
+      .result > h1:nth-child(3) {
+        font-size: 2.3vw;
+      }
+
+      .result > div:nth-child(4) {
+        font-size: 1.2vw;
+        padding: 0px 20px 0px 20px;
+      }
+
+      
+
+      
