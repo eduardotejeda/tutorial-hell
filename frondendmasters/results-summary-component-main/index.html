@@ -16,16 +16,25 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
-    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="app2.css" />
+    <!-- Google Fond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
-      
       <div class="result">
         <!-- Results #scoreSum are base on score.score value / scores.length -->
 
         <h2>Your Result</h2>
-        <div><span id="scoreSum"></span> of 100</div>
+        <div id="circle">
+          <span id="scoreSum"></span> 
+          <p>of 100</p>
+        </div>
 
         <h1>Great</h1>
         <div>
@@ -33,8 +42,6 @@
         </div>
       </div>
       <div class="summary">
-
-      
         <!-- Populate list from app.js -->
 
         Summary
