@@ -21,6 +21,7 @@ body {
 
     li {
         list-style-type: none;
+        
       }
 
       h1, h2 {
@@ -144,8 +145,41 @@ body {
       #data-output > li:nth-child(4) {
         background-color: rgb(243, 243, 243);
         border-radius: 8px;
+        
                 
         
+      }
+
+      #data-output > li:nth-child(1) > img:nth-child(1) {
+
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+      }
+
+      #data-output > li:nth-child(2) > img:nth-child(1) {
+
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+      }
+
+      #data-output > li:nth-child(3) > img:nth-child(1) {
+
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+      }
+
+      #data-output > li:nth-child(4) > img:nth-child(1) {
+
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
       }
 
       #data-output {
