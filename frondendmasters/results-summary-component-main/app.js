@@ -12,7 +12,7 @@ fetch("data.json")
 
     for(let score of scores){
         out += `
-        <li><img src='${score.icon}'> ${score.category} ${score.score} / 100</li>
+        <li><img src='${score.icon}'> <span id='category${scoreSum}' class='text'>${score.category} </span> ${score.score} / 100</li>
         `;
 
         scoreSum += Math.floor(score.score/scores.length);      
