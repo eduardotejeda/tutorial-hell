@@ -4,7 +4,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-outline: solid 1px red;
+/* outline: solid 1px red; */
 }
 
 body {
@@ -261,6 +261,14 @@ body {
         height: 10%;
       }
       
+      html body main div.summary button:hover
+      {
+        cursor: pointer;
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+
+      }
+
+
 
       html body main div.summary ul#data-output li span span {
         color: hsl(224, 30%, 70%);
@@ -273,7 +281,23 @@ body {
         justify-content: end;
       }
 
-      html body main div.summary ul#data-output li span#category0.text {
-        display: inline-flex;
+html body main div.summary ul#data-output li span#category0.text {
+  transform: translateX(-10px);      
         
               }
+
+html body main div.summary ul#data-output li span#category20.text {
+  transform: translateX(-10px); 
+}
+      
+html body main div.summary ul#data-output li span#category43.text {
+   transform: translateX(-20px); 
+}
+
+html body main div.summary ul#data-output li span#category58.text {
+  transform: translateX(-20px); 
+}
+
+html body main div.summary ul#data-output li span b {
+  margin-right: 5px;
+}
