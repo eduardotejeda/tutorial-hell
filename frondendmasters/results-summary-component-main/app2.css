@@ -4,7 +4,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-outline: solid 1px red;
+/* outline: solid 1px red; */
 }
 
 body {
@@ -220,4 +220,84 @@ body {
         padding-left: 10%;
         padding-right: 5%;
         font-size: 14px;
+        align-items: center;
       }
+
+      #data-output > li:nth-child(3) > span:nth-child(3) {
+        padding-left: 10%;
+        padding-right: 5%;
+        font-size: 14px;
+        align-items: center;
+      }
+
+      #data-output > li:nth-child(2) > span:nth-child(3) {
+        padding-left: 10%;
+        padding-right: 5%;
+        font-size: 14px;
+        align-items: center;
+      }
+
+      #data-output > li:nth-child(1) > span:nth-child(3) {
+        padding-left: 10%;
+        padding-right: 5%;
+        font-size: 14px;
+        align-items: center;
+      }
+
+      html body main div.summary button
+      {
+        border-radius: 15px;
+        min-height: 10%;
+        min-width: 80%;
+        position: relative;
+        top: 16%;
+        transform: translateY(-50%);
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 800;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(224, 30%, 27%);
+        border: none;
+        width: 100%;
+        height: 10%;
+      }
+      
+      html body main div.summary button:hover
+      {
+        cursor: pointer;
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+
+      }
+
+
+
+      html body main div.summary ul#data-output li span span {
+        color: hsl(224, 30%, 70%);
+        font-size: 600;               
+        
+      }
+
+      html body main div.summary ul#data-output li span {
+        display: inline-flex;
+        justify-content: end;
+      }
+
+html body main div.summary ul#data-output li span#category0.text {
+  transform: translateX(-10px);      
+        
+              }
+
+html body main div.summary ul#data-output li span#category20.text {
+  transform: translateX(-10px); 
+}
+      
+html body main div.summary ul#data-output li span#category43.text {
+   transform: translateX(-20px); 
+}
+
+html body main div.summary ul#data-output li span#category58.text {
+  transform: translateX(-20px); 
+}
+
+html body main div.summary ul#data-output li span b {
+  margin-right: 5px;
+}
