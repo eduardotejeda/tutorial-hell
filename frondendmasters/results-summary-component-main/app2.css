@@ -7,6 +7,16 @@ padding: 0;
 /* outline: solid 1px red; */
 }
 
+
+@media (min-width: 600px) {
+  main{
+    height: 400px;
+    width: 320px;
+  }
+
+
+}
+
 body {
     width: 100vw;
     height: 100vh;
